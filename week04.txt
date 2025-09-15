@@ -1,4 +1,4 @@
-ㅅㄷㄴㅅ
+vi filename
 
 깃 명령어
 git commit --amend -m "수정할 커밋 메세지"

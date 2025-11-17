@@ -13,5 +13,13 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println(lines)
+	counts := make(map[string]int)
+
+	for _, line := range lines {
+		counts[line]++
+	}
+
+	for name, count := range counts {
+		fmt.Println(name, ":", count)
+	}
 }

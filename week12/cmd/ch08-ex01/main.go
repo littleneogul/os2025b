@@ -14,7 +14,7 @@ func applyPrice(s *subscriber) {
 
 func main() {
 	var s1 subscriber
-	var p *subscriber
+	var p *subscriber = &s1
 	// s1.name = "Kim Inha"
 
 	applyPrice(&s1)
